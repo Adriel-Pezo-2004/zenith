@@ -1,4 +1,5 @@
 import { PricingCard } from "@/components/PricingCard"
+import { ContactForm } from "@/components/ContactForm"
 
 export default function Home() {
   return (
@@ -37,6 +38,12 @@ export default function Home() {
         />
 
       </div>
+      <section className="mt-12 text-center">
+        <h2 className="text-2xl font-semibold mb-4">¿No estás seguro de qué plan elegir?</h2>
+        <p className="text-muted-foreground mb-6">Contáctanos y te ayudaremos a encontrar la mejor opción para ti.</p>
+        <ContactForm />
+      </section>
     </main>
+
   )
 }
